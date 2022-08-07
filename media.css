@@ -1,0 +1,215 @@
+@media(max-width:1220px){
+    .sect-2 {
+        margin-top: 9rem;
+    }
+    .counter-container{
+        flex-wrap: wrap;
+    }
+.counter-up {
+    width: 20%;
+}
+
+}
+
+
+
+
+
+@media(max-width: 1024px){
+    .hamburger{
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1){
+       transform: translateY(8px) rotate(45deg);
+       background-color: var(--global-color-3);
+    }
+
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+       background-color: var(--global-color-3);
+    }
+
+    .nav-menu{
+        position: fixed;
+        right: -100%;
+        top: 0px;
+        gap: 0;
+        flex-direction: column;
+        background-color: var(--global-color-2);
+        width: 100%;
+        text-align: center;
+        /* align-items: flex-start; */
+        transition: 0.3s;
+        color: rgb(255, 255, 255);
+    }
+
+
+
+    .nav-item{
+        margin: 16px 0;
+    }
+
+     li.one{
+        margin-top: 6rem;
+    }
+
+     li.last{
+        margin-bottom: 2rem;
+    }
+
+    .nav-menu.active{
+        right: 0;
+    }
+
+    /* section-2 -------------------------------------- */
+
+    .sect-2 {
+        margin-top: 7rem;
+    }
+
+    .counter-up{
+        width: 20%;
+    }
+    .counter-up h2,span{
+        font-size: 2rem;
+    }
+    
+    .counter-up .fa-solid{
+        font-size: 2rem;
+        display: block;
+    }
+    
+    .counter-up p{
+        font-size: 1rem;
+        margin: 0;
+    }
+}
+
+@media (max-width:769px){
+/* section-1 -------------------------------------- */
+    .sect-1{
+        margin-top: 3rem;
+        padding-left: 3rem;
+    }
+    .mainText-container{
+        color: var(--global-color-3);
+        width: 54%;
+    }
+
+    /* section-2 ---------------------------------- */
+    .counter-up {
+        width: 18%;
+    }
+    .sect-2{
+        margin-top: 14rem;
+    }
+
+    .counter-container{
+        width: 100%;
+    }
+
+    .counter-up h2,span{
+        font-size: 1.5rem;
+    }
+    
+    .counter-up .fa-solid{
+        font-size: 1.5rem;
+        display: block;
+    }
+    
+    .counter-up p{
+        font-size: 0.9rem;
+        margin: 0;
+    }
+
+}
+
+@media (max-width:479px){
+    
+    .sect-1{
+        padding-left: 1rem;
+        margin-top: 5rem;
+    }
+
+    .mainText-container{
+        width: 70%;
+    }
+
+    .main-heading h1{
+        font-size: 3rem ;
+    }
+
+    .mainPara p{
+        font-size: 0.9rem;
+    }
+
+    
+header::before{
+    content:"";
+    background: url(images/black1.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 85vh;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+} 
+
+   /* section-2 ---------------------------------- */
+   .counter-up {
+    width: 29%;
+    padding: 0;
+    margin-top: -9px;
+}
+.sect-2{
+    margin-top: 8rem;
+}
+
+.counter-up h2,span{
+    margin: 0;
+    font-size: 1.9rem;
+}
+
+.counter-container{
+    width: 100%;
+}
+
+.counter-up .fa-solid{
+    font-size: 1.4rem;
+    display: block;
+}
+
+.counter-up p{
+    font-size: 0.6rem;
+    margin: 0;
+}
+
+
+
+
+}
+
+@media (max-width:320px){
+    .sect-1{
+        margin-top: 4rem;
+        padding-left: 1.5rem;
+    }
+    .mainText-container{
+        width: 84%;
+    }
+
+    .main-heading h1{
+        font-size: 2.5rem ;
+    }
+
+    /* section-2 ---------------------------- */
+    .sect-2{
+        margin-top: 11rem;
+    }
+}
